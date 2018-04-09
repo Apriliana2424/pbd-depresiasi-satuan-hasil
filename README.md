@@ -32,12 +32,17 @@ berfluktuasi mengikuti jumlah produksi yang dihasilkan.
     Berikut asumsi asumsi penyusutan metode hasil produksi digunakan :
     
     •	Nilai aset tetap menurun karena penggunaan, bukan karena faktor waktu.
+    
     •	Kerusakan serta ke-aus-an fisik aset adalah faktor penting, sedangkan tingkat 
         Ke-usang-an bukan hal penting,
+        
     •	Biaya maintenance dan perbaikan sifatnya proporsional terhadap penggunaan,
+    
     •	Tingkat efesiensi operasi sifatnya proporsional terhadap pemakaian aset, 
         contohnya bahan bakar yang jumlahnya berfluktuasi.
+        
     •	Pendapatan sifatnya proporsional terhadap penggunaan aset tetap
+    
 
 Metode satuan hasil produksi merupakan metode penyusutan yang mengalokasikan beban 
 penyusutan ke beberapa periode berdasarkan pada satuan unit yang diperoleh dari 
