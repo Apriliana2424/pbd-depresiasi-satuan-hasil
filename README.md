@@ -28,20 +28,15 @@ berfluktuasi mengikuti jumlah produksi yang dihasilkan.
 2. Penggunaan Aplikasi untuk membuat, mengedit, menghapus data produksi.
 3. Menentukan jumlah hasil produksi terhadap aset (mesin) yang digunakan.
 
-    *Berikut asumsi asumsi penyusutan metode hasil produksi digunakan :*
-    ---
-    •	Nilai aset tetap menurun karena penggunaan, bukan karena faktor waktu
-    ---
+    Berikut asumsi asumsi penyusutan metode hasil produksi digunakan :
+    
+    •	Nilai aset tetap menurun karena penggunaan, bukan karena faktor waktu.
     •	Kerusakan serta ke-aus-an fisik aset adalah faktor penting, sedangkan tingkat 
-        Ke-usang-an bukan hal penting, 
-    ---
+        Ke-usang-an bukan hal penting,
     •	Biaya maintenance dan perbaikan sifatnya proporsional terhadap penggunaan,
-    ---
     •	Tingkat efesiensi operasi sifatnya proporsional terhadap pemakaian aset, 
         contohnya bahan bakar yang jumlahnya berfluktuasi.
-    ---
     •	Pendapatan sifatnya proporsional terhadap penggunaan aset tetap
-    ---
 
 Metode satuan hasil produksi merupakan metode penyusutan yang mengalokasikan beban 
 penyusutan ke beberapa periode berdasarkan pada satuan unit yang diperoleh dari 
@@ -62,11 +57,11 @@ produksi, bukan berdasarkan tahun.
 *** Development Tools Aplikasi ***
 ---
 
-• Sistem Operasi     : Windows 7 Ultimate
-• Web Server         : apache :httpd
-• Data Base          : MySQL
-• Bahasa Pemrograman : PHP
-• Aplikasi Pendukung : XAMPP 
+1. Sistem Operasi     : Windows 7 Ultimate
+2. Web Server         : apache :httpd
+3. Data Base          : MySQL
+4. Bahasa Pemrograman : PHP
+5. Aplikasi Pendukung : XAMPP 
 
 
 *** Instalasi Development Tools Aplikasi ***
@@ -77,7 +72,7 @@ aplikasi maka saya menginstall xampp terlebih dahulu, setelah diinstal xampp
 maka baru masuk dalam pembuatan program dengan bahasa pemrograman PHP.
 ---
 Cara instal XAMPP :
-Langkah ini dapat dilihat dari web dibawah ini :
+Langkah ini dapat dilihat dari web ini :
 [Link untuk Langkah Instalasi XAMPP](https://webhostmu.com/cara-instal-xampp/)
 
 
