@@ -48,13 +48,13 @@ produksi, bukan berdasarkan tahun.
 > Penyusutan = produksi setahun x tarif penyusutan per unit
 
 
-*** Pembuat Aplikasi ***
+***Pembuat Aplikasi***
 ---
 
-** Apriliana Puspitasari **
+**Apriliana Puspitasari**
 
 
-*** Development Tools Aplikasi ***
+***Development Tools Aplikasi***
 ---
 
 1. Sistem Operasi     : Windows 7 Ultimate
@@ -64,7 +64,7 @@ produksi, bukan berdasarkan tahun.
 5. Aplikasi Pendukung : XAMPP 
 
 
-*** Instalasi Development Tools Aplikasi ***
+***Instalasi Development Tools Aplikasi***
 ---
 
 Karena disini saya menggunakan web server apache maka untuk mendukung pembuatan
@@ -76,7 +76,7 @@ Langkah ini dapat dilihat dari web ini :
 [Link untuk Langkah Instalasi XAMPP](https://webhostmu.com/cara-instal-xampp/)
 
 
-*** Cara Menjalankan Aplikasi ***
+***Cara Menjalankan Aplikasi***
 ---
 
 Karena kita menggunakan aplikasi XAMPP maka pertama ketika kita ingin Menjalankan
@@ -91,7 +91,7 @@ belum bisa saya jelaskan detail karena saat ini sedang dalam proses
 pengerjaan aplikasinya.
 
 
-*** Lisensi Aplikasi ***
+***Lisensi Aplikasi***
 ---
 
 [Link untuk Lisensi XAMPP](https://id.wikipedia.org/wiki/XAMPP)
