@@ -23,6 +23,7 @@ berfluktuasi mengikuti jumlah produksi yang dihasilkan.
 • Pokok Masalah :
 1. Bagaimana menghitung hasil satuan produksi menggunakan metode 
     Depresiasi metode satuan hasil produksi.
+    
 • Batasan Masalah :
 1. Perhitungan menggunakan depresiasi metode satuan hasil produksi.
 2. Penggunaan Aplikasi untuk membuat, mengedit, menghapus data produksi.
