@@ -70,7 +70,7 @@ produksi, bukan berdasarkan tahun.
 Karena disini saya menggunakan web server apache maka untuk mendukung pembuatan
 aplikasi maka saya menginstall xampp terlebih dahulu, setelah diinstal xampp 
 maka baru masuk dalam pembuatan program dengan bahasa pemrograman PHP.
----
+
 Cara instal XAMPP :
 Langkah ini dapat dilihat dari web ini :
 [Link untuk Langkah Instalasi XAMPP](https://webhostmu.com/cara-instal-xampp/)
@@ -82,7 +82,7 @@ Langkah ini dapat dilihat dari web ini :
 Karena kita menggunakan aplikasi XAMPP maka pertama ketika kita ingin Menjalankan
 program yang telah dibuat maka kita jalankan XAMPP terlebih dahulu.
 cara menjalankannya dapat dilihat di 
----
+
 [Link Cara menjalankan XAMPP](https://webhostmu.com/cara-instal-xampp/)
 setelah itu baru kita dapat membuka database kita di localhost/phpmyadmin/
 lalu menjalankan database'nya setelah itu kita buka aplikasi perhitungannya 
