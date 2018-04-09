@@ -32,12 +32,17 @@ berfluktuasi mengikuti jumlah produksi yang dihasilkan.
     *Berikut asumsi asumsi penyusutan metode hasil produksi digunakan :*
     ---
     •	Nilai aset tetap menurun karena penggunaan, bukan karena faktor waktu
+    ---
     •	Kerusakan serta ke-aus-an fisik aset adalah faktor penting, sedangkan tingkat 
         Ke-usang-an bukan hal penting, 
+    ---
     •	Biaya maintenance dan perbaikan sifatnya proporsional terhadap penggunaan,
+    ---
     •	Tingkat efesiensi operasi sifatnya proporsional terhadap pemakaian aset, 
         contohnya bahan bakar yang jumlahnya berfluktuasi.
+    ---
     •	Pendapatan sifatnya proporsional terhadap penggunaan aset tetap
+    ---
 
 Metode satuan hasil produksi merupakan metode penyusutan yang mengalokasikan beban 
 penyusutan ke beberapa periode berdasarkan pada satuan unit yang diperoleh dari 
@@ -71,9 +76,10 @@ produksi, bukan berdasarkan tahun.
 Karena disini saya menggunakan web server apache maka untuk mendukung pembuatan
 aplikasi maka saya menginstall xampp terlebih dahulu, setelah diinstal xampp 
 maka baru masuk dalam pembuatan program dengan bahasa pemrograman PHP.
+---
 Cara instal XAMPP :
 Langkah ini dapat dilihat dari web dibawah ini :
-[Langkah Instalasi XAMPP](https://webhostmu.com/cara-instal-xampp/)
+[Link untuk Langkah Instalasi XAMPP](https://webhostmu.com/cara-instal-xampp/)
 
 
 *** Cara Menjalankan Aplikasi ***
@@ -82,7 +88,8 @@ Langkah ini dapat dilihat dari web dibawah ini :
 Karena kita menggunakan aplikasi XAMPP maka pertama ketika kita ingin Menjalankan
 program yang telah dibuat maka kita jalankan XAMPP terlebih dahulu.
 cara menjalankannya dapat dilihat di 
-[Cara menjalankan XAMPP](https://webhostmu.com/cara-instal-xampp/)
+---
+[Link Cara menjalankan XAMPP](https://webhostmu.com/cara-instal-xampp/)
 setelah itu baru kita dapat membuka database kita di localhost/phpmyadmin/
 lalu menjalankan database'nya setelah itu kita buka aplikasi perhitungannya 
 kemudian kita jalankan aplikasinya. Untuk menjalankan aplikasinya mungkin
@@ -93,4 +100,4 @@ pengerjaan aplikasinya.
 *** Lisensi Aplikasi ***
 ---
 
-[Lisensi](https://id.wikipedia.org/wiki/XAMPP)
+[Link untuk Lisensi XAMPP](https://id.wikipedia.org/wiki/XAMPP)
