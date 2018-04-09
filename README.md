@@ -30,6 +30,7 @@ berfluktuasi mengikuti jumlah produksi yang dihasilkan.
 3. Menentukan jumlah hasil produksi terhadap aset (mesin) yang digunakan.
 
     *Berikut asumsi asumsi penyusutan metode hasil produksi digunakan :*
+    ---
     •	Nilai aset tetap menurun karena penggunaan, bukan karena faktor waktu
     •	Kerusakan serta ke-aus-an fisik aset adalah faktor penting, sedangkan tingkat 
         Ke-usang-an bukan hal penting, 
