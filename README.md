@@ -1,7 +1,7 @@
 # Perhitungan Depresiasi Menggunakan Metode Satuan Hasil di Konveksi
 
 
-*** Deskripsi Aplikasi ***
+***Deskripsi Aplikasi***
 ---
 
 Setiap perusahaan tentu menginginkan keuntungan sebesar-besarnya dari
