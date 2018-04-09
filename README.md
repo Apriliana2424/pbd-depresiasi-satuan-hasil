@@ -1,5 +1,4 @@
 # Perhitungan Depresiasi Menggunakan Metode Satuan Hasil di Konveksi
-===
 
 
 *** Deskripsi Aplikasi ***
