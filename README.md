@@ -1,3 +1,4 @@
+
 # Perhitungan Depresiasi Menggunakan Metode Satuan Hasil di Konveksi
 
 
@@ -117,3 +118,14 @@ untuk membuat login pada aplikasi.
 Setelah tabel admin dibuat maka dibuatlah form input login admin.
 
 Kemudian saya membuat form input karyawan untuk menginputkan data karyawan.
+
+#Change Logs
+
+##7 Mei 2018
+
+Pada pertemuan ini saya melengkapi tabel dalam database, membuat login proses,
+membuat tampilan home dan tampilan input merk mesin, membuat respons dari input merk mesin.
+Kemudian setelah membuat input merk mesin dan direspons lalu akan ditampilkan pada tampilan
+output untuk merk mesin.
+Membuat tampilan untuk proses logout.
+---
