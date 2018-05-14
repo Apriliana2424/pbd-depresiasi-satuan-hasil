@@ -19,7 +19,8 @@ include "kon.php";
 </head>
 <body>
                                 <?php  
-                                        $sql_cek="select * from jenis ORDER BY id_jenis ASC";
+                                        $sql_cek="select jenis.id_jenis, jenis.jenis_mesin, merk.merk_mesin 
+                                        from jenis join merk on jenis.id_merk=merk.id_merk ORDER BY id_jenis ASC";
                                         $query_cek = $kon->query($sql_cek);
                                         $result_cek = $query_cek->num_rows;
                                         if($result_cek=='0'){
