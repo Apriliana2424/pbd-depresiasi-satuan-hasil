@@ -19,8 +19,13 @@ include "kon.php";
 </head>
 <body>
                                 <?php  
-                                        $sql_cek="SELECT jenis.id_jenis, merk.merk_mesin, jenis.jenis_mesin 
-                                        FROM jenis JOIN merk ON jenis.id_merk = merk.id_merk";
+                                        $sql_cek="SELECT mesin.id_mesin, merk.merk_mesin, jenis.jenis_mesin, 
+                                                mesin.tgl_perolehan,mesin.hrg_perolehan, mesin.nilai_residu, 
+                                                mesin.taksiran_produksi
+                                                FROM mesin JOIN merk ON 
+                                                mesin.id_merk = merk.id_merk
+                                                JOIN jenis ON
+                                                mesin.id_jenis = jenis.id_jenis";
                                         $query_cek = $kon->query($sql_cek);
                                         $result_cek = $query_cek->num_rows;
                                         if($result_cek=='0'){
@@ -32,15 +37,19 @@ include "kon.php";
                                 <br/>
                                 <br/>
                                 <br/>
-                              <center><h2><font color="white">DAFTAR JENIS MESIN JAHIT</font></h2></center> 
+                              <center><h2><font color="white">DAFTAR MESIN JAHIT</font></h2></center> 
 							  <br/>
 							  <br/>
 
                                   <center><table border_color="white" width="200" border="3" height="150">
                                         <thead>
-                                            <th>Id Jenis</th>
-                                            <th>Merk Mesin Jahit</th>
+                                            <th>Id Mesin</th>
+                                            <th>Merk Mesin</th>
                                             <th>Jenis Mesin</th>
+                                            <th>Tanggal Perolehan</th>
+                                            <th>Harga Perolehan</th>
+                                            <th>Nilai Residu</th>
+                                            <th>Taksiran Produksi</th>
                                             <th>Lainnya</th>
 									</tr>
                                         </thead>
@@ -49,10 +58,14 @@ include "kon.php";
 										while ($data = $query_cek->fetch_array()) {
 										?>
                                             <tr>
-                                                <td><?php echo $data['id_jenis']; ?></td>
+                                                <td><?php echo $data['id_mesin']; ?></td>
                                                 <td><?php echo $data['merk_mesin']; ?></td>
                                                 <td><?php echo $data['jenis_mesin']; ?></td>
-                                                <td><?php echo "<a href='hapus_jenis.php?id_jenis=" . $data['id_jenis'] . "'>
+                                                <td><?php echo $data['tgl_perolehan']; ?></td>
+                                                <td><?php echo number_format($data['hrg_perolehan'],0,".",","); ?></td>
+                                                <td><?php echo number_format($data['nilai_residu'],0,".",","); ?></td>
+                                                <td><?php echo number_format($data['taksiran_produksi'],0,".",","); ?></td>
+                                                <td><?php echo "<a href='hapus_mesin.php?id_mesin=" . $data['id_mesin'] . "'>
                                                 HAPUS </a> " ;?></td>
                                             </tr>
 										 <?php 

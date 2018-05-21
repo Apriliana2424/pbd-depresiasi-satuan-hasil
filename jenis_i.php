@@ -38,14 +38,15 @@
 											?>
             </select>
             </center>
-                <td colspan="2"><center><font color="white">Jenis Mesin</td><td><input type="text" name="jenis_mesin" 
+                <td colspan="2"><center><font color="white">Jenis Mesin</td><td>
+                <input type="text" name="jenis_mesin" 
                 placeholder="Jenis Mesin Jahit">
                 </font></center></td>
                 </tr>
                 <tr>
                 <td colspan="2"><center><button type="submit" value="simpan">SIMPAN</button></center>
                 </td>
-                <td colspan="2"><a href="home.php" onClick='self.history()'>
+                <td colspan="2"><a href="home.php">
                 <left><button type="submit" value="batal">BATAL</button></left></td></tr>
             </table>
         </form>

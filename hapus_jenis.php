@@ -15,36 +15,38 @@
 		</style>
 </html>
 <?php
-	$id_merk = $_GET['id_merk'] ;
+	$id_jenis = $_GET['id_jenis'] ;
 	include "kon.php" ;
-	$sql = "select * from merk where id_merk = '$id_merk' ";
+	$sql = "select * from jenis where id_jenis = '$id_jenis' ";
 	$hasil = mysqli_query($kon,$sql) ;
 	if (!$hasil) die ('Gagal query ....');
 	
 	$data = mysqli_fetch_array($hasil);
+	$id_jenis = $data['id_jenis'];
 	$id_merk = $data['id_merk'];
-	$merk_mesin = $data['merk_mesin'];
+	$jenis_mesin = $data['jenis_mesin'];
 	
 	echo "<br/><br/><br/><br/><br/>";
 	echo "<center>";
 	echo "<font color = white>";
 	echo "<h2>Konfirmasi Hapus</h2>" ;
-	echo "Id Merk : ".$id_merk."<br/>" ;
-	echo "Merk Mesin : ".$merk_mesin."<br/>" ;
+	echo "Id Jenis : ".$id_jenis."<br/>" ;
+    echo "Id Merk : ".$id_merk."<br/>" ;
+	echo "Jenis Mesin : ".$jenis_mesin."<br/>" ;
 	echo "APAKAH DATA INI AKAN DI HAPUS ?? <br/>";
-	echo "<a href='hapus_merk.php?id_merk=$id_merk&hapus=1'> YA </a>";
+	echo "<a href='hapus_jenis.php?id_jenis=$id_jenis&hapus=1'> YA </a>";
 	echo "&nbsp;&nbsp;" ;
-	echo "<a href='merk_t.php'> TIDAK </a> <br/><br/>" ;
-	echo "</center>";
+	echo "<a href='jenis_t.php'> TIDAK </a> <br/><br/>" ;
+	echo "</center>";	
 	
 	if (isset($_GET['hapus'])) {
-		$sql = "delete from merk where id_merk = '$id_merk'";
+		$sql = "delete from jenis where id_jenis = '$id_jenis'";
 		$hasil = mysqli_query($kon,$sql);
 		if (!$hasil){
-			echo "Gagal Hapus Merk Mesin : $merk_mesin ....<br/> ";
-			echo "<a href='merk_t.php'>Kembali ke Daftar Merk</a>";
+			echo "Gagal Hapus Jenis Mesin : $jenis_mesin ....<br/> ";
+			echo "<a href='jenis_t.php'>Kembali ke Daftar Merk</a>";
 		} else {
-			header('location:merk_t.php');
+			header('location:jenis_t.php');
 		}
 	}
 ?>

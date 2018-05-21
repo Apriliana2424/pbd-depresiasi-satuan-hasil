@@ -4,8 +4,9 @@
  print_r($_POST);
 
  $jenis_mesin		= $_POST['jenis_mesin'];
+ $id_merk		= $_POST['id_merk'];
 
-$sql = "insert into jenis values('$id_jenis','$merk_mesin','$jenis_mesin')";   
+$sql = "insert into jenis values('$id_jenis','$id_merk','$jenis_mesin')";   
 $hasil = $kon->query($sql);
 if (!$hasil) {
     echo "Gagal Simpan, silakan diulangi! <br /> ".mysqli_error($koneksidb);

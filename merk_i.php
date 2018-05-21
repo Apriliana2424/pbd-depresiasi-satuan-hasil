@@ -27,13 +27,14 @@
             </br>
             <table align="center">
                 <tr>
-                <td colspan="2"><center><font color="white">Merk Mesin</td><td><input type="text" name="merk_mesin" placeholder="Merk Mesin Jahit">
+                <td colspan="2"><center><font color="white">Merk Mesin</td><td>
+                <input type="text" name="merk_mesin" placeholder="Merk Mesin Jahit">
                 </font></center></td>
                 </tr>
                 <tr>
                 <td colspan="2"><center><button type="submit" value="simpan">SIMPAN</button></center>
                 </td>
-                <td colspan="2"><a href="home.php" onClick='self.history()'>
+                <td colspan="2"><a href="home.php">
                 <left><button type="submit" value="batal">BATAL</button></left></td></tr>
             </table>
         </form>
