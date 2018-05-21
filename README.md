@@ -111,11 +111,8 @@ pengerjaan aplikasinya.
 
 
 Pada Pertemuan kali ini saya mengerjakan aplikasi depresiasi satuan hasil dengan awal membuat
-
 database terlebih dahulu. Disini saya membuat database depresiasi dengan tabel admin yang digunakan 
-
 untuk membuat login pada aplikasi.
-
 Setelah tabel admin dibuat maka dibuatlah form input login admin.
 
 ---
