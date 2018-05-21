@@ -148,3 +148,12 @@ Membuat tampilan untuk proses logout.
 
 ##21 Mei 2018
 
+-Input Mesin Jahit => OK
+-Proses Mesin Jahit => OK
+-Hapus_merk.php => OK
+-Hapus_mesin.php => OK
+-Hapus_jenis.php => OK
+-Menghasilkan tampilan mesin dalam Mesin_t.php => OK
+
+
+---
