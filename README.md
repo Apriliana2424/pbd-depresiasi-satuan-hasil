@@ -118,8 +118,6 @@ untuk membuat login pada aplikasi.
 
 Setelah tabel admin dibuat maka dibuatlah form input login admin.
 
-Kemudian saya membuat form input karyawan untuk menginputkan data karyawan.
-
 ---
 
 #Change Logs
@@ -138,4 +136,15 @@ Membuat tampilan untuk proses logout.
 #Change Logs
 
 ##14 Mei 2018
+
+
+-Membuat Input Jenis Mesin Jahit
+-Membuat Proses Hasil Input Mesin Jahit
+-Membuat Tampilan Output Hasil Input Mesin Jahit.
+
+---
+
+#Change Logs
+
+##21 Mei 2018
 
