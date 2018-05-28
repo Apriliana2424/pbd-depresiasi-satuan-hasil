@@ -35,7 +35,7 @@ include "kon.php";
 					<td><a href="merk_i.php">MERK MESIN JAHIT</a></td>
 					<td><a href="jenis_i.php">JENIS MESIN JAHIT</a></td>
 					<td><a href="mesin_i.php">MESIN JAHIT</a></td>
-					<td><a href="detailMesin.php">DETAIL MESIN JAHIT</a></td>
+					<td><a href="detailMesin_i.php">DETAIL MESIN JAHIT</a></td>
                     <td><a href="depresiasi_i.php">DEPRESIASI</a></td>
                 	<td><a href="tabel_depresiasi.php">TABEL DEPRESIASI</a></td>
                     <td><a href="laporan.php">LAPORAN</a></td>
