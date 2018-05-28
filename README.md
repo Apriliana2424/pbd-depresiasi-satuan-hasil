@@ -162,3 +162,18 @@ Membuat tampilan untuk proses logout.
 
 
 ---
+
+#Change Logs
+
+##28 Mei 2018
+
+1. detailMesin_i.php => OK
+
+2. detailMesin_p.php => OK
+
+3. detailMesin_t.php => OK
+
+4 hapus_detailMesin.php => Baru diedit belum selesai. (Error)
+
+
+---
