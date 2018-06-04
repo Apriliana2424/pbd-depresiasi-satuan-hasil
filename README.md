@@ -177,3 +177,11 @@ Membuat tampilan untuk proses logout.
 
 
 ---
+
+#Change Logs
+
+##04 Juni 2018
+
+Membuat File hitung untuk depresiasi.php => OK
+
+Mengedit font color untuk setiap tampilan output.
