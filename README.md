@@ -50,7 +50,7 @@ penyusutan ke beberapa periode berdasarkan pada satuan unit yang diperoleh dari
 penggunaan aset tetap. Umur ekonomis aset tetap dinyatakan dalam satuan unit 
 produksi, bukan berdasarkan tahun.
 
-> Depresiasi Per Satuan Hasil = (harga perolehan - nilai sisa)/taksiran jml produksi
+> Depresiasi Per Unit = (harga perolehan - nilai sisa)/taksiran jml produksi
 
 > Depresiasi tahun yang bersangkutan = produksi setahun x tarif penyusutan per unit
 
