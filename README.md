@@ -50,9 +50,9 @@ penyusutan ke beberapa periode berdasarkan pada satuan unit yang diperoleh dari
 penggunaan aset tetap. Umur ekonomis aset tetap dinyatakan dalam satuan unit 
 produksi, bukan berdasarkan tahun.
 
-> Tarif penyusutan /Unit = (harga perolehan - nilai sisa)/taksiran jml produksi
+> Depresiasi Per Satuan Hasil = (harga perolehan - nilai sisa)/taksiran jml produksi
 
-> Penyusutan = produksi setahun x tarif penyusutan per unit
+> Depresiasi tahun yang bersangkutan = produksi setahun x tarif penyusutan per unit
 
 
 ***Pembuat Aplikasi***
