@@ -19,7 +19,7 @@ include "kon.php";
 </head>
 <body>
                                 <?php  
-                                        $sql_cek="SELECT mesin.id_mesin, merk.merk_mesin, jenis.jenis_mesin, mesin.tgl_perolehan,
+                                        $sql_cek="SELECT detailmesin.id_detailMesin, merk.merk_mesin, jenis.jenis_mesin, mesin.tgl_perolehan,
                                                     mesin.hrg_perolehan, mesin.nilai_residu, mesin.taksiran_produksi, detailmesin.tahun,
                                                     detailmesin.satuan_hasil
                                                     FROM detailmesin JOIN mesin ON
@@ -42,18 +42,17 @@ include "kon.php";
 							  <br/>
 							  <br/>
 
-                                  <center><table border_color="white" width="200" border="3" height="150">
+                                  <center><table width="1000" border="3" height="150">
                                         <thead>
-                                            <th>Id Mesin</th>
-                                            <th>Merk Mesin</th>
-                                            <th>Jenis Mesin</th>
-                                            <th>Tanggal Perolehan</th>
-                                            <th>Harga Perolehan</th>
-                                            <th>Nilai Residu</th>
-                                            <th>Taksiran Produksi</th>
-                                            <th>Produksi Tahun ke -</th>
-                                            <th>Jumlah Produksi</th>                                        
-                                            <th>Lainnya</th>
+                                            <th><font color="white">Id Detail Mesin</font></th>
+                                            <th><font color="white">Merk Mesin</font></th>
+                                            <th><font color="white">Jenis Mesin</font></th>
+                                            <th><font color="white">Tanggal Perolehan</font></th>
+                                            <th><font color="white">Harga Perolehan</font></th>
+                                            <th><font color="white">Nilai Residu</font></th>
+                                            <th><font color="white">Taksiran Produksi</font></th>
+                                            <th><font color="white">Produksi Tahun ke -</font></th>
+                                            <th><font color="white">Jumlah Produksi</font></th>
 									</tr>
                                         </thead>
                                         <tbody>
@@ -61,17 +60,15 @@ include "kon.php";
 										while ($data = $query_cek->fetch_array()) {
 										?>
                                             <tr>
-                                                <td><?php echo $data['id_mesin']; ?></td>
-                                                <td><?php echo $data['merk_mesin']; ?></td>
-                                                <td><?php echo $data['jenis_mesin']; ?></td>
-                                                <td><?php echo $data['tgl_perolehan']; ?></td>
-                                                <td><?php echo number_format($data['hrg_perolehan'],0,".",","); ?></td>
-                                                <td><?php echo number_format($data['nilai_residu'],0,".",","); ?></td>
-                                                <td><?php echo number_format($data['taksiran_produksi'],0,".",","); ?></td>
-                                                <td><?php echo $data['tahun']; ?></td>
-                                                <td><?php echo $data['satuan_hasil']; ?></td>
-                                                <td><?php echo "<a href='hapus_detailMesin.php?tahun=" . $data['tahun'] . "'>
-                                                HAPUS </a> " ;?></td>
+                                                <td><?php echo "<font color='white'>".$data['id_detailMesin']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['merk_mesin']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['jenis_mesin']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['tgl_perolehan']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".number_format($data['hrg_perolehan'],0,".",",")."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".number_format($data['nilai_residu'],0,".",",")."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".number_format($data['taksiran_produksi'],0,".",",")."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['tahun']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['satuan_hasil']."</font>"; ?></td>
                                             </tr>
 										 <?php 
                                          }
