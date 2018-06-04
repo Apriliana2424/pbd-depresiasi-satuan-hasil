@@ -47,10 +47,12 @@ error_reporting(E_ALL ^ E_DEPRECATED);
     mysqli_query ($kon, $sqlTabelMesin) or die("Gagal Buat Tabel Mesin");
 	
 	$sqlTabelDetailMesin = "create table if not exists detailmesin(
+		id_detailMesin int auto_increment not null primary key,
 		id_mesin int not null,
 		id_jenis int not null,
+		id_merk int not null,
 		tahun int not null,
-		satuan_hasil char not null)";
+		satuan_hasil int not null)";
 	mysqli_query ($kon, $sqlTabelDetailMesin) or die("Gagal Buat Tabel Detail Mesin");	
 	
 	$sqlTabelDepresiasi = "create table if not exists depresiasi(

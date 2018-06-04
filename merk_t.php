@@ -37,9 +37,9 @@ include "kon.php";
 
                                   <center><table border_color="white" width="200" border="3" height="150">
                                         <thead>
-                                            <th>Id Merk</th>
-                                            <th>Merk Mesin</th>
-                                            <th>Lainnya</th>
+                                            <th><font color="white">Id Merk</font></th>
+                                            <th><font color="white">Merk Mesin</font></th>
+                                            <th><font color="white">Lainnya</font></th>
 									</tr>
                                         </thead>
                                         <tbody>
@@ -47,8 +47,8 @@ include "kon.php";
 										while ($data = $query_cek->fetch_array()) {
 										?>
                                             <tr>
-                                                <td><?php echo $data['id_merk']; ?></td>
-                                                <td><?php echo $data['merk_mesin']; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['id_merk']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['merk_mesin']."</font>"; ?></td>
                                                 <td><?php echo "<a href='hapus_merk.php?id_merk=" . $data['id_merk'] . "'>
                                                 HAPUS </a> " ;?></td>
                                             </tr>

@@ -1,6 +1,5 @@
 <html lang="en">
 <?php
-
 include "kon.php";
 ?>
 <head>
@@ -38,10 +37,10 @@ include "kon.php";
 
                                   <center><table border_color="white" width="200" border="3" height="150">
                                         <thead>
-                                            <th>Id Jenis</th>
-                                            <th>Merk Mesin Jahit</th>
-                                            <th>Jenis Mesin</th>
-                                            <th>Lainnya</th>
+                                            <th><font color="white">Id Jenis</font></th>
+                                            <th><font color="white">Merk Mesin Jahit</font></th>
+                                            <th><font color="white">Jenis Mesin</font></th>
+                                            <th><font color="white">Lainnya</font></th>
 									</tr>
                                         </thead>
                                         <tbody>
@@ -49,9 +48,9 @@ include "kon.php";
 										while ($data = $query_cek->fetch_array()) {
 										?>
                                             <tr>
-                                                <td><?php echo $data['id_jenis']; ?></td>
-                                                <td><?php echo $data['merk_mesin']; ?></td>
-                                                <td><?php echo $data['jenis_mesin']; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['id_jenis']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['merk_mesin']."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".$data['jenis_mesin']."</font>"; ?></td>
                                                 <td><?php echo "<a href='hapus_jenis.php?id_jenis=" . $data['id_jenis'] . "'>
                                                 HAPUS </a> " ;?></td>
                                             </tr>

@@ -44,7 +44,7 @@
 		$hasil = mysqli_query($kon,$sql);
 		if (!$hasil){
 			echo "Gagal Hapus Jenis Mesin : $jenis_mesin ....<br/> ";
-			echo "<a href='jenis_t.php'>Kembali ke Daftar Merk</a>";
+			echo "<a href='jenis_t.php'>Kembali ke Daftar Jenis</a>";
 		} else {
 			header('location:jenis_t.php');
 		}

@@ -52,7 +52,7 @@
 		$hasil = mysqli_query($kon,$sql);
 		if (!$hasil){
 			echo "Gagal Hapus Mesin : $id_mesin ....<br/> ";
-			echo "<a href='mesin_t.php'>Kembali ke Daftar Merk</a>";
+			echo "<a href='mesin_t.php'>Kembali ke Daftar Mesin</a>";
 		} else {
 			header('location:mesin_t.php');
 		}

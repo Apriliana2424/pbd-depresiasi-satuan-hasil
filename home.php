@@ -36,15 +36,12 @@ include "kon.php";
 					<td><a href="jenis_i.php">JENIS MESIN JAHIT</a></td>
 					<td><a href="mesin_i.php">MESIN JAHIT</a></td>
 					<td><a href="detailMesin_i.php">DETAIL MESIN JAHIT</a></td>
-                    <td><a href="depresiasi_i.php">DEPRESIASI</a></td>
+                    <td><a href="depresiasi.php">DEPRESIASI</a></td>
                 	<td><a href="tabel_depresiasi.php">TABEL DEPRESIASI</a></td>
                     <td><a href="laporan.php">LAPORAN</a></td>
 				</tr>
 				</table>
-				<br/><br/><br/><br/><br/>
-				<center><a href="login.php"><input type="Submit" name="login" value="LOGIN">
-				<a href="logout.php"><input type="Submit" name="logout" value="LOGOUT"></center>
-				</br></br></br></br></br></br></br></br></br>
+				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			<footer>
 			<p><h3><font color="white">Copyright@ Apriliana 2018</font></h3></p>
 			</footer>
