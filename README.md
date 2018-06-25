@@ -185,3 +185,21 @@ Membuat tampilan untuk proses logout.
 Membuat File hitung untuk depresiasi.php => OK
 
 Mengedit font color untuk setiap tampilan output.
+
+
+---
+
+#Change Logs
+
+##25 Juni 2018
+
+- Membuat menu tambahan untuk file edit.
+
+- Menu depresiasi perunit sudah ok, masih revisi untuk perhitungan
+
+depresiasi tahun yang bersangkutan.
+
+- Menu laporan masih dalam tahap revisi'an.
+
+
+---
