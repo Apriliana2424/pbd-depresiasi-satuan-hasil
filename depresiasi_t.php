@@ -21,7 +21,7 @@ include "kon.php";
                                 <?php  
                                         $sql_cek="SELECT depresiasi.id_depresiasi, mesin.hrg_perolehan, 
                                                     mesin.nilai_residu, mesin.taksiran_produksi,
-                                                    depresiasi.depresiasi_perunit 
+                                                    depresiasi.depresiasi_perunit, depresiasi.total_depresiasi 
                                                     FROM depresiasi JOIN mesin 
                                                     ON depresiasi.id_mesin = mesin.id_mesin
                                                     ORDER BY id_depresiasi ASC";
@@ -47,6 +47,7 @@ include "kon.php";
                                             <th><font color="white">Nilai Residu</font></th>
                                             <th><font color="white">Taksiran Produksi</font></th>
                                             <th><font color="white">Depresiasi Perunit</font></th>
+                                            <th><font color="white">Total Depresiasi</font></th>
 									</tr>
                                         </thead>
                                         <tbody>
@@ -59,6 +60,7 @@ include "kon.php";
                                                 <td><?php echo "<font color='white'>".number_format($data['nilai_residu'],0,".",",")."</font>"; ?></td>
                                                 <td><?php echo "<font color='white'>".number_format($data['taksiran_produksi'],0,".",",")."</font>"; ?></td>
                                                 <td><?php echo "<font color='white'>".number_format($data['depresiasi_perunit'],0,".",",")."</font>"; ?></td>
+                                                <td><?php echo "<font color='white'>".number_format($data['total_depresiasi'],0,".",",")."</font>"; ?></td>
 										 <?php 
                                          }
                                     ?>
