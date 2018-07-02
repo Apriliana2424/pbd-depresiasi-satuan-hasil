@@ -52,7 +52,7 @@ produksi, bukan berdasarkan tahun.
 
 > Depresiasi Per Unit = (harga perolehan - nilai sisa)/taksiran jml produksi
 
-> Depresiasi tahun yang bersangkutan = produksi setahun x tarif penyusutan per unit
+> Depresiasi tahun yang bersangkutan = produksi setahun x depresiasi per unit
 
 
 ***Pembuat Aplikasi***
