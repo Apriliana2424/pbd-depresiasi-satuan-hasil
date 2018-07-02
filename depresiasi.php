@@ -27,7 +27,7 @@
             </br>
             <table align="center">
             <tr>
-                <center><font color="white">Taksiran Produksi: <select name="id_mesin"></font color>
+                <center><font color="white">Tanggal Perolehan: <select name="id_mesin"></font color>
 											<?php
 												include "kon.php";
 												$sql = "select * from mesin";
@@ -38,7 +38,7 @@
 											?>
                 </tr></center>
             <tr>
-                <center><font color="white">Taksiran Produksi: <select name="hrg_perolehan"></font color>
+                <center><font color="white">Harga Perolehan: <select name="hrg_perolehan"></font color>
 											<?php
 												include "kon.php";
 												$sql = "select * from mesin";
@@ -49,7 +49,7 @@
 											?>
                 </tr></center>
                 <tr>
-                <center><font color="white">Taksiran Produksi: <select name="nilai_residu"></font color>
+                <center><font color="white">Nilai Residu: <select name="nilai_residu"></font color>
 											<?php
 												include "kon.php";
 												$sql = "select * from mesin";
@@ -75,6 +75,22 @@
                 <tr>
                 <tr><td>
                 <center><font color="white">Depresiasi Per Unit	: <input type="text" name="depresiasi_perunit" placeholder="0">
+                </font></center>
+                </td></tr>
+                <center><font color="white">Produksi Setahun : <select name="satuan_hasil" 
+                                        onBlur="total_depresiasi.value=depresiasi_perunit.value * satuan_hasil.value">
+                                        </font color>
+											<?php
+												include "kon.php";
+												$sql = "select * from detailmesin";
+												$res = mysqli_query($kon, $sql) or die("Gagal Query");
+												while($r = mysqli_fetch_assoc($res)){
+												echo "<option value='{$r['satuan_hasil']}'>{$r['satuan_hasil']}</option>";
+												}
+											?>
+                </tr></center>                 
+                <tr><td>
+                <center><font color="white">Total Depresiasi	: <input type="text" name="total_depresiasi" onBlur="" placeholder="0">
                 </font></center>
                 </td></tr> 
                 <tr>
