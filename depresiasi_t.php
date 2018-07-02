@@ -21,6 +21,7 @@ include "kon.php";
                                 <?php  
                                         $sql_cek="SELECT depresiasi.id_depresiasi, mesin.hrg_perolehan, 
                                                     mesin.nilai_residu, mesin.taksiran_produksi,
+						    detailmesin.satuan_hasil,
                                                     depresiasi.depresiasi_perunit, depresiasi.total_depresiasi 
                                                     FROM depresiasi JOIN mesin 
                                                     ON depresiasi.id_mesin = mesin.id_mesin
